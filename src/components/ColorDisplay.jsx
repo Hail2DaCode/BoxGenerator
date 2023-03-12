@@ -10,7 +10,7 @@ const ColorDisplay = (props) => {
         <div className="container">
         {
             props.displayColors.map( (item,index) => 
-                <div className="box" style={{backgroundColor: item}} key={index}></div> )
+                <div className="box" style={{backgroundColor: item.color, width: item.length+"px", height: item.length+"px"}} key={index}></div> )
 
             
         }

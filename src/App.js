@@ -6,14 +6,14 @@ import ColorDisplay from './components/ColorDisplay';
 
 
 function App() {
-  const [colors, setColors] = useState([]);
+  const [boxes, setBoxes] = useState([]);
 
-  const youvegotColor = ( newColor ) => { setColors([...colors,  newColor])};
-  console.log(colors);
+  const youvegotBox = ( newBox ) => { setBoxes([...boxes,  newBox])};
+  console.log(boxes);
   return (
     <div className="App">
-      <ColorForm onNewColor = { youvegotColor } />
-      <ColorDisplay displayColors = { colors }/>
+      <ColorForm onNewBox = { youvegotBox } />
+      <ColorDisplay displayColors = { boxes }/>
     </div>
   );
 }
