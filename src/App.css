@@ -1,5 +1,21 @@
 .App {
-  text-align: center;
+  text-align: center; 
+}
+.container {
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+  /* justify-content: space-evenly; */
+}
+.box {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  border: 2px solid black;
+  margin: 10px; 
+}
+form > *{
+  margin: 20px;
 }
 
 .App-logo {
